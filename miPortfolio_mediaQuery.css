@@ -1,0 +1,30 @@
+/**Breakpoints estandarizados:
+    Móviles: entre 320 y 480 píxeles.
+    Tablets: entre 768 y 1024 píxeles.
+    Pantallas grandes: más de 1024 píxeles o más.
+
+Desktop first empezar con el Media Query mas grande
+
+*/
+
+
+@media screen and (max-width: 767px) {
+    .header{
+        display: block;
+        height: auto;
+      }
+      .header ol{
+      display: block;
+      }
+
+      .header ol li{
+        padding: 25px;
+      }
+      .header a {
+          flex: 1;
+          justify-content: center;
+      }
+      .logo{
+        text-align: center;
+      }
+    }

@@ -1,0 +1,78 @@
+/* gris oscuro = #1d252c:
+gris claro = #626262;
+background gris = #1b2127;
+celeste =  #026fff;
+*/
+
+.container {
+  max-width: 1000px;
+  /*width: 100%;*/
+  height: inherit;
+
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: #1d252c;
+  padding: 10px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.header__left {
+  display: flex;
+  flex-direction: row;
+}
+
+.header img {
+  height: auto;
+  padding-left: 10px;
+}
+.header__menu {
+  padding-right: 30px;
+}
+.header__menu ol, ul {
+  margin: 0px;
+  padding: 0px ;
+  list-style: none;
+}
+.header__menu ol {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.header__menu a {
+  padding: 0px 20px;
+}
+.workwithme {
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.workwithme:hover {
+  background-color: #50f;
+
+}
+
+/* F O O T E R */
+.footer {
+  padding: 0px 10px;
+  height: 100px;
+  color: white;
+  background-color: #1d252c;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+.footer a {
+  color:white;
+  text-decoration: none;
+}
