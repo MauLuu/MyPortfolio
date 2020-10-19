@@ -1,0 +1,123 @@
+/* gris oscuro = #1d252c:
+gris claro = #626262;
+background gris = #1b2127;
+celeste =  #026fff;
+*/
+body {
+  background-color: #50f;
+}
+a img {
+  width: 20px;
+  height: 20px;
+}
+#header {
+  background-color: #1d252c;
+}
+#header a {
+  color: white;
+}
+#header img {
+  width: 50px;
+}
+#workwithme {
+  border-radius: 5px;
+  border: 2px solid white;
+  width: 160px;
+  text-align: center;
+}
+.navbar-toggler {
+  border-color: #d600ff !important;
+}
+
+/* HEADER */
+.hero {
+  background-color: #1d252c;
+  color: white;
+
+}
+.hero strong{
+  color: #d600ff;
+}
+.card {
+  border:2px solid #1d252c;
+  border-top-left-radius: 50px;
+}
+.card a {
+  color: black;
+  text-decoration: none;
+}
+.card a:hover{
+  color: black;
+}
+.scroll {
+  overflow:scroll;
+    width:100%;
+    height:40vh;
+}
+
+.experience a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+/* -- Contac -- */
+.form__email {
+    color: white;
+}
+.social__link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+.tw {
+  background-image: url(./miPortafolio_img/tw.png);
+}
+.fb {
+  background-image: url(./miPortafolio_img/fb.png);
+}
+.ig {
+  background-image: url(./miPortafolio_img/ig.png);
+}
+.git {
+  background-image: url(./miPortafolio_img/git.png);
+}
+
+/* -- footer -- */
+footer {
+  color:white;
+}
+footer a {
+  color:white;
+}
+.form__email button {
+  
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  padding: 5px 0px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Breakpoints estandarizados:
+    Móviles: entre 320 y 480 píxeles.
+    Tablets: entre 768 y 1024 píxeles.
+    Pantallas grandes: más de 1024 píxeles o más.
+
+Desktop first empezar con el Media Query mas grande
+
+*/
