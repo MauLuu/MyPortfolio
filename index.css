@@ -5,6 +5,7 @@ celeste =  #026fff;
 */
 body {
   background-color: #50f;
+  font-family: 'Montserrat', sans-serif;
 }
 a img {
   width: 20px;
@@ -35,6 +36,9 @@ a img {
   color: white;
 
 }
+.hero h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
 .hero strong{
   color: #d600ff;
 }
@@ -54,7 +58,13 @@ a img {
     width:100%;
     height:40vh;
 }
-
+.portfolio h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+.experience h2 {
+  font-family: 'Fjalla One', sans-serif;
+  
+}
 .experience a {
   font-weight: bold;
   color: black;
@@ -91,7 +101,7 @@ footer a {
   color:white;
 }
 .form__email button {
-  
+
   margin-top: 10px;
   background: transparent;
   color: white;
