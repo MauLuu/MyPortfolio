@@ -17,15 +17,21 @@ a img {
 #header a {
   color: white;
 }
+#header a:hover {
+  font-weight: bold;
+}
 #header img {
   width: 50px;
+  height: auto;
 }
 #workwithme {
   border-radius: 5px;
   border: 2px solid white;
-  width: 160px;
+  width: auto;
+  max-width: 170px;
   text-align: center;
 }
+
 .navbar-toggler {
   border-color: #d600ff !important;
 }
@@ -63,12 +69,15 @@ a img {
 }
 .experience h2 {
   font-family: 'Fjalla One', sans-serif;
-  
+
 }
 .experience a {
   font-weight: bold;
   color: black;
   text-decoration: none;
+}
+.experience a:hover {
+  color: black;
 }
 /* -- Contac -- */
 .form__email {
@@ -99,6 +108,9 @@ footer {
 }
 footer a {
   color:white;
+}
+footer a:hover {
+  color: white;
 }
 .form__email button {
 

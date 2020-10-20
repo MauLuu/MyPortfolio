@@ -21,7 +21,7 @@
 
 <body style="background-color: #50f;">
 <!--H E A D E R -->
-<nav id="header" class="navbar navbar-expand-lg navbar-light">
+<nav id="header" class="navbar navbar-expand-lg navbar-light p-4">
   <a class="navbar-brand" href="#">
     <img src="./miPortafolio_img/ML_logo.png" alt="">
     <!--Mauricio Ludueña-->
@@ -32,13 +32,13 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item pl-2">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
       <li class="nav-item pl-2">
-        <a class="nav-link" href="#">Experience</a>
+        <a class="nav-link" href="#experience">Experience</a>
       </li>
       <li class="nav-item pl-2">
-        <a id="workwithme" class="nav-link" href="#">Let's work together</a>
+        <a id="workwithme" class="nav-link" href="#work">Let's work together</a>
       </li>
     </ul>
   </div>
@@ -47,7 +47,7 @@
 <!--H E R O -->
 <section class="hero container-fluid p-4">
   <div class="row align-items-center">
-    <div class="col text-center text-md-left pl-3">
+    <div class="col text-center text-md-left pl-5">
       <h1>Hi, I'm <strong>Mauricio,</strong><br>
         frontend developer,<br>
         In constant search of challenges and new tecnologies.</h1>
@@ -57,7 +57,7 @@
         <span class="badge badge-danger">Javascript</span>
       </div>
     </div>
-    <div class="col text-center text-md-left">
+    <div class="col text-center ">
       <img src="./miPortafolio_img/mau.jpg" width="350" height="350" alt="Mauricio">
     </div>
 
@@ -69,7 +69,7 @@
 <div class="main ml-4 mr-4" style="background-color:#e6e6e6">
 
 <div class="container">
-  <section class="portfolio">
+  <section id="portfolio" class="portfolio">
     <div class="row text-left text-uppercase">
       <div class="col  m-3">
         <small>main projects</small>
@@ -84,7 +84,7 @@
               <h3 class="card-title">Streaming platform</h3>
               <h6>[  HTML & CSS  ]</h6>
               <p><small><strong>Date: </strong> agost.2020</small></p>
-              <p><strong>See the code</strong> in <a href="#" ><img src="./miPortafolio_img/gitBlack.png" alt=""></a> </p>
+              <p><strong>See the code</strong> in <a href="https://github.com/MauLuu/PlatziVideo" target="_blank" ><img src="./miPortafolio_img/gitBlack.png" alt=""></a> </p>
               <hr width="250px">
               <p>Aestethic, minimalistic layout.</p>
               <p>Intuitive functionality, with some reactcions when hover the items.</p>
@@ -105,7 +105,7 @@
               <h3 class="card-title">Platzi Conf</h3>
               <h6>[  HTML & CSS  ]</h6>
               <p><small><strong>Date: </strong> sept.2020</small></p>
-              <p><strong>See the code</strong> in <a href="#" ><img src="./miPortafolio_img/gitBlack.png" alt=""></a> </p>
+              <p><strong>See the code</strong> in <a href="https://github.com/MauLuu/PlatziConf" target="_blank"><img src="./miPortafolio_img/gitBlack.png" alt=""></a> </p>
               <hr width="250px">
               <p>Informative layout.</p>
               <p>Grasp all you need to know from the event while scrolling the page.
@@ -146,7 +146,7 @@
 </div>
 <!-- / P O R T F O L I O -->
 <!-- B L O G -->
-<section class="experience">
+<section id="experience" class="experience">
   <div class="container">
     <div class="row text-left text-uppercase">
       <div class="col m-3">
@@ -158,7 +158,7 @@
         <h4>Blog about Blockchain technologies and more.</h4>
         <p>Share to learn. Personal project to share my pasion about
           finance and disruptive technologies with the potential for changing the world.</p>
-        <p><a href="#">Visit the site</a></p>
+        <p>Visit the <a href="https://www.investontech.com/" target="_blank">site</a></p>
       </div>
       <div class="col-12 col-md-8 p-2">
         <div class="scroll">
@@ -173,11 +173,11 @@
 <!-- / B L O G -->
 <!-- / Let's create -->
 
-<section class="contact">
+<section id="work" class="contact">
   <div class="container-fluid">
     <div class="row my-5">
       <div class="contact__form col-12 col-md-6 text-center text-md-right">
-        <form class="form__email" action="/suscripción/" method="post">
+        <form class="form__email" action="mailto:mauricio.luduena@gmail.com" method="post">
           <h3>Let's build together!</h3>
           <input type="text" name="" placeholder="live your email">
           <button class="form__email-btn">Send</button>
@@ -185,10 +185,9 @@
       </div>
       <div class="contact__social col-12 col-md-6 text-center text-md-left pt-3">
         <div class="social">
-          <a href="#" class="social__link tw"></a>
-          <a href="#" class="social__link fb"></a>
-          <a href="#" class="social__link ig"></a>
-          <a href="#" class="social__link git"></a>
+          <a href="https://twitter.com/lud_mau" target="_blank" class="social__link tw"></a>
+          <a href="https://www.instagram.com/mauri.ludue/" class="social__link ig"></a>
+          <a href="https://github.com/MauLuu/" target="_blank" class="social__link git"></a>
         </div>
       </div>
     </div>
